@@ -1,0 +1,25 @@
+{
+    "name": "getweb/custom-cpt",
+    "description": "Awesome Gutenberg Custom Post Generator",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "abusayedrussell",
+            "email": "abusayedrussell@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "support": {
+        "email": "abusayedrussell@gmail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "rsCustomPost\\": "./webfiles"
+        },
+        "files": [
+            "webfiles/Helper/MMWCPTWD_Helper.php"
+        ]
+    }
+}
